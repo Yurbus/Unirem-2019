@@ -55,22 +55,22 @@
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						      <ul class="nav navbar-nav navbar-right">
 						        <li><a href="#">Головна</a></li>
-						        <li><a href="#">Послуги<i class="fa fa-chevron-down"></i></a></a>
-								      <ul class="sub-menu">
-								      	<li><a href="#">Деталі тютюнової промисловості</a></li>
-								      	<li><a href="#">Деталі кондитерської промисловості</a></li>
-								      	<li><a href="#">Металообробка</a></li>
-												<li><a href="#">Обгумування валів</a></li>
-								      </ul>
-									  </li>
+						        <li class="menu-item"><a href="#">Послуги<i class="fa fa-chevron-down"></i></a></a>
+								    <ul class="sub-menu">
+										<li><a href="#">Деталі тютюнової промисловості</a></li>
+										<li><a href="#">Деталі кондитерської промисловості</a></li>
+										<li><a href="#">Металообробка</a></li>
+										<li><a href="#">Обгумування валів</a></li>
+								    </ul>
+								</li>
 						        <li><a href="#about">Про нас</a></li>
 						        <li><a href="#contact">Контакти</a></li>
-						        <li><a href="#lang">Укр<i class="fa fa-chevron-down"></i></a>
-											<ul class="sub-lang-mnu">
-												<li><a href="#">Rus</a></li>
-												<li><a href="#">Eng</a></li>
-											</ul>
-										</li>
+						        <li class="menu-item"><a href="#lang">Укр<i class="fa fa-chevron-down"></i></a>
+									<ul class="sub-lang-mnu">
+										<li><a href="#">Rus</a></li>
+										<li><a href="#">Eng</a></li>
+									</ul>
+								</li>
 						      </ul>
 						    </div>
 						</div>
@@ -124,164 +124,249 @@
 	<!-- slider section -->
 	<div class="wrap-slider">
 		<div class="container">
-			<h2>Декілька видів наших робіт</h2>
 			<div class="slider">
-		    <div class="slider__wrapper">
-		      <div class="slider__item">
+				<h2>Декілька видів наших робіт</h2>
+				<div class="slider-double-line"></div>
+				<div class="slider__wrapper">
+					<div class="slider__item">
 						<img src="img/slider/slide1.jpg" alt="slide">
-		      </div>
-		      <div class="slider__item">
-		        <img src="img/slider/slide2.jpg" alt="slide">
-		      </div>
-		      <div class="slider__item">
-		        <img src="img/slider/slide3.jpg" alt="slide">
-		      </div>
-		      <div class="slider__item">
-		        <img src="img/slider/slide4.jpg" alt="slide">
-		      </div>
-		    </div>
-		    <a class="slider__control slider__control_left" href="#" role="button"></a>
-		    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
-		  </div>
+					</div>
+					<div class="slider__item">
+						<img src="img/slider/slide2.jpg" alt="slide">
+					</div>
+					<div class="slider__item">
+						<img src="img/slider/slide3.jpg" alt="slide">
+					</div>
+					<div class="slider__item">
+						<img src="img/slider/slide4.jpg" alt="slide">
+					</div>
+				</div>
+				<a class="slider__control slider__control_left" href="#" role="button"></a>
+				<a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+		  	</div>
 		</div>
 	</div><!-- and slider section -->
 
 	<!-- our access section -->
 	<section class="details" id="about">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6 col-xs-12 col-sm-12 wow slideInUp animated">
-					<img class="img-responsive details-phone" src="img/technical-drawing.jpg" alt="photo">
-				</div>
-				<div class="col-md-6 col-xs-12 col-sm-12 wow slideInUp animated">
+				<div class="col-md-5 col-xs-12 col-sm-12 details-phone wow slideInUp animated"></div>	
+				<div class="col-md-7 col-xs-12 col-sm-12 wow slideInUp animated">
 					<h2>Наші досягнення</h2>
 					<div class="details-double-line"></div>
 
-					<div class="card mb-3" style="max-width: 500px;">
-					  <div class="row no-gutters">
-					    <div class="col-md-2">
-					      <img src="img/grawing.png" class="card-img" alt="...">
-					    </div>
-					    <div class="col-md-8">
-					      <div class="card-body">
-					        <h5 class="card-title">16 860</h5>
-					        <p class="card-text">Більше 16 800 виконаних замовлень.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+					<div class="cards">
+						<div class="card" style="max-width: 400px;">
+							<div class="row no-gutters">
+							  <div class="col-md-2">
+								<img src="img/grawing.png" class="card-img" alt="...">
+							  </div>
+							  <div class="col-md-8">
+								<div class="card-body">
+								  <h5 class="card-title">16 860</h5>
+								  <p class="card-text">Більше 16 800 виконаних замовлень.</p>
+								</div>
+							  </div>
+							</div>
+						</div>
+	
+						<div class="card" style="max-width: 400px;">
+							<div class="row no-gutters">
+							  <div class="col-md-2">
+								<img src="img/grawing.png" class="card-img" alt="...">
+							  </div>
+							  <div class="col-md-8">
+								<div class="card-body">
+								  <h5 class="card-title">20 років</h5>
+								  <p class="card-text">Співпраці
+									з великими кондитерськими і 
+									тютюновими фабриками України.</p>
+								</div>
+							  </div>
+							</div>
+						</div>
 
-					<div class="card mb-3" style="max-width: 500px;">
-					  <div class="row no-gutters">
-					    <div class="col-md-2">
-					      <img src="img/grawing.png" class="card-img" alt="...">
-					    </div>
-					    <div class="col-md-8">
-					      <div class="card-body">
-					        <h5 class="card-title">16 860</h5>
-					        <p class="card-text">Більше 16 800 виконаних замовлень.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+						<div class="card" style="max-width: 400px;">
+							<div class="row no-gutters">
+							  <div class="col-md-2">
+								<img src="img/grawing.png" class="card-img" alt="...">
+							  </div>
+							  <div class="col-md-8">
+								<div class="card-body">
+								  <h5 class="card-title">10 +</h5>
+								  <p class="card-text">Більше 10 одиниць постійно оновлюючого обладнання</p>
+								</div>
+							  </div>
+							</div>
+						</div>
 
+						<div class="card" style="max-width: 400px;">
+							<div class="row no-gutters">
+							  <div class="col-md-2">
+								<img src="img/grawing.png" class="card-img" alt="...">
+							  </div>
+							  <div class="col-md-8">
+								<div class="card-body">
+								  <h5 class="card-title">100%</h5>
+								  <p class="card-text">Мы гарантуємо якість нашого 
+									продукту на всі 100%</p>
+								</div>
+							  </div>
+							</div>
+						</div>
+
+					</div>
+					
 				</div>
 			</div>
 		</div>
 	</section><!-- end our access section -->
 
 
-	<!-- feature sectiona -->
+	<!-- Секція переваги -->
 	<section class="features text-center" id="features">
 		<div class="container">
 			<div class="row">
-				<h4>product overview</h4>
-				<h2>List of amazing features</h2>
-				<img class="img-responsive" src="img/daag.png" alt="">
-				<div class="col-md-3 wow zoomIn animated">
-					<i class="fa fa-desktop"></i>
-					<h3>Responsive</h3>
-					<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+				<h2>Наші переваги</h2>
+				<div class="features-double-line"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/industrial.png" alt="icon">
+						</div>
+						<h3>український виробник</h3>
+						<p>Ми - український виробник з власним парком обладнання</p>
+					</div>
 				</div>
-				<div class="col-md-3 wow zoomIn animated">
-					<i class="fa fa-cog"></i>
-					<h3>Customizable</h3>
-					<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/team.png" alt="icon">
+						</div>
+						<h3>Наша команда</h3>
+						<p>Наша команда - висококваліфіковані спеціалісти в галузі металообробки</p>
+					</div>
 				</div>
-				<div class="col-md-3 wow zoomIn animated">
-					<i class="fa fa-facebook"></i>
-					<h3>Lovely design</h3>
-					<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
-				</div>
-				<div class="col-md-3 wow zoomIn animated">
-					<i class="fa fa-mobile"></i>
-					<h3>Mobile Friendly</h3>
-					<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/chain.png" alt="icon">
+						</div>
+						<h3>наші Матеріали</h3>
+						<p>Матеріали наших виробів - імпортні сталі і композити</p>
+					</div>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/quality.png" alt="icon">
+						</div>
+						<h3>100% якість продукту</h3>
+						<p>Контроль якості кожного нашого вирібу</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/meet-icon.png" alt="icon">
+						</div>
+						<h3>Індивідуальністьа</h3>
+						<p>Індивідуальний підхід до кожного клієнта</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/price.png" alt="icon">
+						</div>
+						<h3>ціноутворення</h3>
+						<p>В нашій компанії гнучке ціноутворення</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/calipers.png" alt="icon">
+						</div>
+						<h3>одиничні замовлення</h3>
+						<p>Можемо працювати з одиничними замовленнями.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/time.png" alt="icon">
+						</div>
+						<h3>термін виготовлення</h3>
+						<p>Мінімальний термін виготовлення. Ми завжди виготовляємо продукт вчасно</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 wow zoomIn animated">
+					<div class="wrap-block">
+						<div class="circle-block">
+							<img src="img/icons/pen.png" alt="icon">
+						</div>
+						<h3>креслення чи зразок</h3>
+						<p>Виготовляємо деталі по кресленню або зразку</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
-	</section><!-- end of features section -->
+	</section><!-- end Секція переваги -->
 	<hr>
 
-	<!-- contact section -->
-	<section class="contact text-center" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="contact-heading">
-					<h4>stay in touch</h4>
-					<h2>Contact us</h2>
-					<img class="img-responsive" src="img/daag.png" alt="">
-				</div>
-				<div class="col-md-2 col-md-offset-1 col-xs-4 col-sm-4">
-					<i class="fa fa-phone"></i>
-					<p>Phone: (415) 124-5678</p>
-					<p>Fax: (412) 123-8290</p>
-				</div>
-				<div class="col-md-2 col-md-offset-2 col-xs-4 col-sm-4">
-					<i class="fa fa-map-marker"></i>
-					<p>1001 Brickell Bay Dr.</p>
-					<p>Suite 1900 </p>
-					<p>Miami, FL 33131</p>
-				</div>
-				<div class="col-md-2 col-md-offset-2 col-xs-4 col-sm-4 clearfix">
-					<i class="fa fa-envelope-o"></i>
-					<p>user@mail.com</p>
-				</div>
-				<div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-12">
-					<article class="contact-form">
-						<form action="contact">
-							<div class="col-md-5 col-md-offset-1 contact-form-left">
-								<input class="name" type="text" placeholder="NAME*">
-								<input class="email" type="email" placeholder="EMAIL*">
-								<input class="subject" type="text" placeholder="SUBJECT*">
-							</div>
-							<div class="col-md-5 contact-form-right text-right">
-								<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="MESSAGE"></textarea>
-								<input type="submit" class="submit-btn" value="send message">
-							</div>
-						</form>
-					</article>
-				</div>
-			</div>
-		</div>
-	</section><!-- end of contact section -->
-
-	<!-- google map api -->
-	<div class="map">
-		<div class="container-fluid">
-			<div class="row">
-				<div id="map"></div> <!-- api map -->
-			</div>
-		</div>
-	</div>
-
 	<!-- footer starts here -->
-	<footer class="footer text-center">
+	<footer class="footer">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-4">
+					<div class="bottom-logo"><img src="img/logotype_ua.png" alt="logo"></div>
+					<p>УНІРЕМ забеспеспечить Вас 
+						кращим сервісом з металообробки 
+						і найякіснішими деталями українського виробника </p>
+				</div>
+				<div class="col-md-4">
+					<h5>Послуги</h5>
+					<ul class="list-services">
+						<li><a href="">деталі кондитерської промисловості</a></li>
+						<li><a href="">деталі тютюнової промисловості</a></li>
+						<li><a href="">обгумування валів</a></li>
+						<li><a href="">металообробка</a></li>
+						<li><a href="">термообробка</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h5>Адреса компанії</h5>
+					<ul class="list-adress">
+						<li><a href="#">м.Київ, ул.Кржижановского, 3</a></li>
+						<li><a href="#">Тел./факс: (044) 424-3181</a></li>
+						<li><a href="#">unirem@unirem.com.ua</a></li>
+						<li><a href="tel:+380505030207">+38 050 503 02 07</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
 				<div class="col-md-12">
 					<div class="icons">
-						<p>COPYRIGHT &copy; 2015 Унірем</p>
+						<p>COPYRIGHT &copy; 2020 Унірем</p>
 				</div>
 			</div>
 		</div>
@@ -289,8 +374,10 @@
 
 	<!-- script tags
 	============================================================= -->
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="js/smoothscroll.js"></script>
+
+	<!-- <script src="js/jquery-2.1.1.js"></script> -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- <script src="js/smoothscroll.js"></script> -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/wow.js"></script>
