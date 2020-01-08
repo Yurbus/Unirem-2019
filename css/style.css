@@ -19,6 +19,15 @@ li{
 a:hover, a:visited, a{
 	text-decoration: none;
 }
+input, textarea {
+	outline:none;
+}
+input:active, textarea:active {
+	outline:none;
+}
+.btn:active {
+	outline:none;
+}
 h4{
 	font-size: 14px;
 	color: #008ed6;
@@ -231,7 +240,7 @@ ul.nav{
 .features-btn{
 	font-family: Oswald;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 0px;
 	align-items: center;
@@ -241,7 +250,7 @@ ul.nav{
 	color: #FCFF00;
 	background-color: transparent;
 	padding: 22px 40px;
-	border: 2px solid #FCFF00;
+	border: 1px solid #FCFF00;
 	box-sizing: border-box;
 	border-radius: 28px;
 	margin-top: 50px;
@@ -512,7 +521,7 @@ min-height: 550px;
 	color: #999999;
 }
 .features p{
-	font-family: Montserrat Light;
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 14px;
