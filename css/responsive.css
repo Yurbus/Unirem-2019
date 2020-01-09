@@ -34,8 +34,8 @@
 /* xs */
 @media (min-width: 480px) and (max-width: 767px) {
 	.banner h3 {
-	  font-size: 11px;
-	  margin-top: 105px;
+	  font-size: 12px;
+	  margin-top: 30px;
 	}
 	.banner h1 {
 	  font-size: 25px;
@@ -51,9 +51,8 @@
 	  margin-top: 30px;
 	}
 	.features-btn {
-	  width: 130px;
-	  height: 40px;
-	  font-size: 12px;
+	  padding: 20px 30px;
+	  font-size: 14px;
 	  margin-top: 30px;
 	}
 	h2 {

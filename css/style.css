@@ -43,7 +43,7 @@ h2{
 	margin-top: 0;
 }
 
-/*header area*/
+/*======header area========*/
 .top-line{
 	height: 50px;
 	padding: 10px 0;
@@ -120,6 +120,11 @@ h2{
 ul.nav{
 	margin: 0;
 	padding: 0;
+}
+@media (max-width: 992px) {
+	ul.nav  {
+		display: none;
+	}	
 }
 .navbar-default .navbar-nav>li>a {
 	font-family: Montserrat;
@@ -200,6 +205,9 @@ ul.nav{
 .fa-chevron-down {
 	margin-left: 5px;
 }
+/*=========mobile menu===========*/
+
+
 /*=========banner area===========*/
 .banner{
 	background: url(../img/welding.jpg) no-repeat center/cover;
@@ -229,6 +237,7 @@ ul.nav{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 400;
+	line-height: 22px;
 }
 .banner p{
 	font-size: 18px;
@@ -350,7 +359,9 @@ ul.nav{
 	display: flex;
 	transition: transform 0.6s ease;
 }
-
+.slider__wrapper img {
+	width: 100%;
+}
 .slider__item {
 	flex: 0 0 100%;
 	max-width: 100%;
