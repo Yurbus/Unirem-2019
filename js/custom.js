@@ -111,7 +111,7 @@ jQuery(document).ready(function() {
                _transformItem(direction);
              }
            };
-
+          
            var _setUpListeners = function () {
              // добавление к кнопкам "назад" и "вперед" обрботчика _controlClick для событя click
              _sliderControls.forEach(function (item) {

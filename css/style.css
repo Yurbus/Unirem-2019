@@ -7,6 +7,10 @@
 *
 *
 *******/
+p {
+	margin: 0;
+	padding: 0;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -205,8 +209,6 @@ ul.nav{
 .fa-chevron-down {
 	margin-left: 5px;
 }
-/*=========mobile menu===========*/
-
 
 /*=========banner area===========*/
 .banner{
@@ -540,6 +542,7 @@ min-height: 550px;
 	text-align: center;
 	letter-spacing: 1px;
 	color: #000000;
+	text-transform: none;
 }
 .wrap-block {
 	background: #FFFFFF;
@@ -552,6 +555,113 @@ min-height: 550px;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
 	transition: all .2s;
 }
+/*===========Services section============*/
+.our_services {
+	background-image: url(../img/services-bg.jpg);
+	-webkit-box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
+	box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
+	padding-bottom: 50px;
+	overflow: hidden;
+	text-align: center;
+}
+.our_services h3{
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FCFF00;
+	padding-top: 50px;
+}
+.services-double-line {
+	position: relative;
+	background: #FCFF00;
+	height: 1px;
+	width: 120px;
+	margin: 0 auto 40px;
+}
+.services-double-line::before{
+	content: '';
+	width: 60px;
+	height: 1px;
+	background: #FCFF00;
+	position: absolute;
+	top: 9px;
+	left: 25%;
+}
+.servis-card {
+	background: rgb(255, 255, 255);
+	padding: 10px;
+	margin-top: 30px;
+}
+.servis-card h4 {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #36383F;
+	margin: 15px auto;
+}
+.servis-card a {
+	display: block;
+	width: 110px;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 19px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #000;
+	border: 1px solid #000;
+	padding: 3px;
+	border-radius: 20px;
+	margin: 0 auto 10px;
+}
+.servis-card a:hover {
+	color: #FCFF00;
+	background-color: #000;
+	transition: all 0.2s;
+}
+.card-circle-block {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #E9EAEB;
+	padding: 15px;
+	margin: 0 auto;
+	border-radius: 50%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 15px;
+}
+.servis-card img {
+	position: relative;
+	width: 80px;
+	height: 80px;
+
+}
+.card-double-line {
+	position: relative;
+	background: #525252;
+	height: 1px;
+	width: 80px;
+	margin: 0 auto 28px;
+}
+.card-double-line::before{
+	content: '';
+	width: 40px;
+	height: 1px;
+	background: #525252;
+	position: absolute;
+	top: 7px;
+	left: 25%;
+}
+
 
 
 /*===========footer section============*/
@@ -596,6 +706,34 @@ min-height: 550px;
 	letter-spacing: 1px;
 	color: #C2C2C2;
 }
-.footer .icons {
+.icons {
 	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+.icons p {
+	padding: 10px 0;
+}
+
+/* ======Popup form====== */
+.modal-header .close {
+    margin-top: -24px;
+}
+.modal-header .close span {
+	color: #000;
+	font-size: 30px;
+}
+.modal-title {
+    font-size: 16px;
+}
+.modal-body .btn {
+    border-radius: 10px;
+}
+.modal-body .btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+}
+.modal-body .btn-primary:hover {
+	background-color: #fff;
+	color: #000;
 }
