@@ -27,8 +27,6 @@ jQuery(document).ready(function() {
          return false;
       }
   }
-
-
      //this code is for animation nav
      jQuery(window).scroll(function() {
         var windowScrollPosTop = jQuery(window).scrollTop();
