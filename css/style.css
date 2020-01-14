@@ -133,15 +133,14 @@ ul.nav{
 .navbar-default .navbar-nav>li>a {
 	font-family: Montserrat;
 	font-style: normal;
-	font-weight: bold;
 	font-size: 12px;
 	line-height: 15px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	padding: 8px 0;
-	margin-left: 35px;
-	font-weight: 600;
+	margin-left: 30px;
+	font-weight: 400;
 }
 .navbar-default .navbar-nav>li>a::after{
 	content: "";
@@ -201,8 +200,8 @@ ul.nav{
 	width: 100%;
 	color: #fff;
 	padding: 8px 10px;
-	background: #18171D;
-	border-bottom: 1px solid #403D4D;
+	background: #000;
+	border-bottom: 1px solid #1d1d1d;
 }
 .sub-lang-mnu li a:hover,.sub-menu li a:hover{
 	color: #000;
@@ -227,7 +226,7 @@ ul.nav{
 	line-height: 50px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin-top: 30vh;
+	margin-top: 32vh;
 	color: #FCFF00;
 }
 .banner .yellow-line {
@@ -267,7 +266,7 @@ ul.nav{
 	border: 1px solid #FCFF00;
 	box-sizing: border-box;
 	border-radius: 28px;
-	margin-top: 50px;
+	margin-top: 75px;
 }
 .features-btn:hover{
 	color: #000;
@@ -275,7 +274,7 @@ ul.nav{
 	transition: all .3s;
 }
 
-/*==========feature-detail area============*/
+/*==========Вітаємо вас на сайті============*/
 .feature-detail{
 	background: #fff;
 	padding-bottom: 35px;
@@ -289,7 +288,7 @@ ul.nav{
 }
 .feature-detail h2{
 	margin-bottom: 10px;
-	font-family: Montserrat;
+	font-family: 'Montserrat';
 	font-size: 26px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -320,10 +319,48 @@ ul.nav{
 	margin-top: 6vh ;
 }
 
-/*slider*/
+/*===========Слайдер наших партнеров============*/
+.slider-partners {
+	border-top: 1px solid #b3b3b3;
+} 
+.slider-partners .container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px 10px;
+}
+.head-partners h4 {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 30px auto 15px;
+}
+.partners-double-line{
+	position: relative;
+	background: #000;
+	height: 1px;
+	width: 120px;
+	margin: 0 auto 40px;
+}
+.partners-double-line::before{
+	content: '';
+	width: 60px;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	top: 9px;
+	left: 25%;
+}
+
+/*=========slider=============*/
 .wrap-slider {
 	padding: 25px 10px;
-	background-color: #b3b3b3;
+	background-color: #e6e6e6;
+	border-top: 1px solid #d6d6d6;
 }
 .wrap-slider h2 {
 	font-family: Montserrat;
@@ -353,79 +390,16 @@ ul.nav{
 	top: 9px;
 }
 
-.slider {
-	position: relative;
-	overflow: hidden;
+.top-container {
 	max-width: 950px;
 	margin: 0 auto;
-	padding: 15px 0;
+}
+.top-container ul li img {
+	margin: 0 auto;
 }
 
-.slider__wrapper {
-	display: flex;
-	transition: transform 0.6s ease;
-}
-.slider__wrapper img {
-	width: 100%;
-}
-.slider__item {
-	flex: 0 0 100%;
-	max-width: 100%;
-}
 
-.slider__control {
-	position: absolute;
-	top: 60%;
-	display: none;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	color: #fff;
-	text-align: center;
-	opacity: 0.5;
-	height: 50px;
-	transform: translateY(-50%);
-	background: rgba(0, 0, 0, .5);
-}
-
-.slider__control_show {
-	display: flex;
-}
-
-.slider__control:hover,
-.slider__control:focus {
-	color: #fff;
-	text-decoration: none;
-	outline: 0;
-	opacity: .9;
-}
-
-.slider__control_left {
-	left: 0;
-}
-
-.slider__control_right {
-	right: 0;
-}
-
-.slider__control::before {
-	content: '';
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background: transparent no-repeat center center;
-	background-size: 100% 100%;
-}
-
-.slider__control_left::before {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.slider__control_right::before {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-/*details area*/
+/*============details area============*/
 .details {
 	background: url(../img/technical-drawing.jpg) no-repeat center / cover;
 	-webkit-box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.9) inset;
@@ -506,11 +480,11 @@ ul.nav{
   
 .features h2{
 	font-size: 26px;
-	line-height: 15px;
+	line-height: 28px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #36383F;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 .features-double-line {
 	position: relative;
@@ -689,10 +663,9 @@ ul.nav{
 }
 
 
-
 /*===========footer section============*/
 .footer{
-	background: #15141a;
+	background: rgb(37, 37, 37);
 }
 .footer {
 	padding-top: 30px;
