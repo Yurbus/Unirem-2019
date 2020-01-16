@@ -7,6 +7,10 @@
 *
 *
 *******/
+* {
+	padding: 0;
+	margin: 0;
+}
 p {
 	margin: 0;
 	padding: 0;
@@ -32,21 +36,10 @@ input:active, textarea:active {
 .btn:active {
 	outline:none;
 }
-h4{
-	font-size: 14px;
-	color: #008ed6;
-	text-transform: uppercase;
-	margin-top: 65px;
-	font-weight: 700;
+h2 {
+	padding: 0;
+	margin: 0;
 }
-h2{
-	font-size: 36px;
-	color: #1a1a1a;
-	font-weight: 600;
-	margin-bottom: 25px;
-	margin-top: 0;
-}
-
 /*======header area========*/
 .top-line{
 	height: 50px;
@@ -214,7 +207,7 @@ ul.nav{
 
 /*=========banner area===========*/
 .banner{
-	background: url(../img/chocolate.jpg) no-repeat center/cover;
+	background: url(../img/cigarette.jpg) no-repeat center/cover;
 	-webkit-box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
 	box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
 	min-height: 400px;
@@ -233,7 +226,7 @@ ul.nav{
 .banner .yellow-line {
 	background: #FCFF00;
 	height: 1px;
-	width: 58%;
+	width: 51%;
 }
 .banner h1{
 	font-size: 34px;
@@ -243,67 +236,57 @@ ul.nav{
 	color: #FCFF00;
 }
 
-/*========= confectionery-knives ===========*/
-.confectionery-knives {
-	padding-bottom: 40px;
+/*========= style section content ===========*/
+.content {
 	background-color: rgb(220, 220, 220);
+	padding-bottom: 30px;
 }
-.img-knives {
+.content h2 {
+	padding: 40px 0 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+}
+.content p {
+	margin: 0 10px 10px;
+	text-align: center;
+	font-size: 16px;
+}
+.common-block {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	font-size: 14px;
+	padding: 10px 15px;	
 }
-.head-knives h3 {
-	text-align: center;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 29px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: #000;
-	margin: 35px auto;	
+.common-block img {
+	margin: 10px;
 }
-.icon-knive {
-	font-family: 'Oswald';
+.marksm, 
+.max,
+.gd,
+.Focke,
+.dx,
+.x,
+.x,
+.pr,
+.x1,
+.GDX6,
+.MK95,
+.os,
+.hl {
     text-align: center;
-    width: 140px;
-	margin: 27px;
-	background-color: #fff;
-	box-shadow: 1px 1px 8px #777;
-}
-.icon-knive p {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	color: #000;
-	padding: 10px 0;
-}
-
-.sizes {
-	display: flex;
-	justify-content: flex-start;
-	padding-left: 115px;
-}
-.range-size p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 25px;
-	letter-spacing: 1px;
-	color: #525252;
-
-}
-.range-size h4 {
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 25px;
-	letter-spacing: 1px;
-	color: #000000;
+    width: 174px;
+		margin: 5px;
+		background-color: #efefef;
+		box-shadow: 0 0 8px #777;
 }
 
 
-/*===========footer section============*/
+
+
+/*=========== footer section ============*/
 .footer{
 	background: rgb(37, 37, 37);
 }

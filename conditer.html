@@ -13,10 +13,6 @@
 	<!-- jQuery library (served from Google) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-	<!-- bxSlider CSS file -->
-	<link href="css/jquery.bxslider.css" rel="stylesheet" />
-	
-
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -88,8 +84,8 @@
 						    </div>
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						      <ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Головна</a></li>
-								<li class="menu-item"><a href="#">Послуги<i class="fa fa-chevron-down"></i></a></a>
+								<li><a href="index.html">Головна</a></li>
+								<li class="menu-item"><a href="metalworking.html">Послуги<i class="fa fa-chevron-down"></i></a></a>
 								    <ul class="sub-menu metal-working">
 										<li><a href="#">Заточні роботи</a></li>
 										<li><a href="#">Шліфувальні роботи</a></li>
@@ -123,7 +119,7 @@
 	</header><!-- end of header section -->
 
 	<!-- banner section starts here -->
-	<section class="banner" id="home">
+	<section class="banner" id="next-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 align-items-center wow fadeInLeft animated">
@@ -148,7 +144,7 @@
 					</div>
 					<div class="icon-knive wow fadeInDown animated">
 						<img src="img/conditer/MasekBTH-41.jpg" alt="photo">
-						<p>MasekBTH-41</p>
+						<p>Mashek BTH-41</p>
 					</div>
 					<div class="icon-knive wow fadeInDown animated">
 						<img src="img/conditer/serrated_knive.jpg" alt="photo">
@@ -176,16 +172,16 @@
 					</div>
 					<div class="icon-knive wow fadeInDown animated">
 						<img src="img/conditer/chempak.jpg" alt="photo">
-						<p>Ніж Чемпак відрізний</p>
+						<p>Ніж Chempak</p>
 					</div>
 					<div class="icon-knive wow fadeInDown animated">
 						<img src="img/conditer/fudji.jpg" alt="photo">
-						<p>Ніж флоупак BOSCH</p>
+						<p>Ніж BOSCH</p>
 					</div>
 				</div>
 			
 			<div class="sizes">
-				<div class="range-size">
+				<div class="range-size wow fadeInLeft animated">
 					<h4>Діапазон розмірів зубчастих ножів, що <br>виготовляються за плановими замовленнями</h4>
 					<p>Довжина ножа, мм: 5 - 2000</p>
 					<p>Крок зуба, мм: 1 - 6</p>
@@ -197,14 +193,6 @@
 			</div>
 		</div>
 	</section><!--/confectionery-knives-->
-
-
-
-
-
-
-
-	
 
 	<!-- footer starts here -->
 	<footer class="footer">
@@ -241,69 +229,13 @@
 		<p>Copyright &copy; 2020 Унірем</p>
 	</div>
 
-	
-	<!------ Modal ------->
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog-centered modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalCenterTitle">Залиште свої дані</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Ваше ім’я:</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputPassword1">Ваш телефон:</label>
-							<input type="password" class="form-control" id="exampleInputPassword1">
-							</div>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Ваш email:</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlFile1">Відправити файл</label>
-							<input type="file" class="form-control-file" id="exampleFormControlFile1">
-							</div>
-						<button type="submit" class="btn btn-primary">Відправити</button>
-						</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	
 	<!-- script tags
 	============================================================= -->
 
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<!-- <script src="js/jquery-2.1.1.js"></script> -->
-
-	<!-- bxSlider Javascript file -->
-	<script src="js/jquery.bxslider.js"></script>
-
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/wow.js"></script>
-
-	<script>jQuery(document).ready(function(){
-		jQuery('.bxslider-partners').bxSlider({
-			slideWidth: 150,
-			minSlides: 2,
-			maxSlides: 6,
-			slideMargin: 20,
-			auto: true
-		});
-		jQuery('.bxslider').bxSlider({
-			mode: 'fade',
-			aptions: true,
-			auto: true
-		});
-	});
-	</script>
 </body>
 </html>
