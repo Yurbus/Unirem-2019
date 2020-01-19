@@ -363,9 +363,16 @@ ul.nav{
 }
 
 /*=========slider=============*/
+#particles-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
 .wrap-slider {
 	padding: 25px 10px;
-	background-color: #f3f3f3;
 	border-top: 1px solid #e7e6e6;
 	padding-bottom: 65px;
 }
