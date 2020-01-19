@@ -25,7 +25,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500|Oswald:300,400,500&display=swap&subset=cyrillic-ext" rel="stylesheet">
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
 	<!--[if lt IE 9]>
@@ -209,13 +208,7 @@
 
 	<div class="wrap-slider">
 
-		<div id="particles-js"></div>
-		<script>
-			/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-			particlesJS.load('particles-js', '/js/particles.json', function() {
-			  console.log('callback - particles.js config loaded');
-			}); 
-		</script>
+		<canvas id="stars"></canvas>
 		<div class="container">
 				<div class="top-container">
 					<h2>Декілька видів наших робіт</h2>
@@ -581,7 +574,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/wow.js"></script>
-
+	<!-- <script src="js/main.js"></script> -->
 	<script>jQuery(document).ready(function(){
 		jQuery('.bxslider-partners').bxSlider({
 			slideWidth: 150,
