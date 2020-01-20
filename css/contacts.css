@@ -7,10 +7,7 @@
 *
 *
 *******/
-p {
-	margin: 0;
-	padding: 0;
-}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -31,13 +28,6 @@ input:active, textarea:active {
 }
 .btn:active {
 	outline:none;
-}
-h4{
-	font-size: 14px;
-	color: #008ed6;
-	text-transform: uppercase;
-	margin-top: 65px;
-	font-weight: 700;
 }
 h2{
 	font-size: 36px;
@@ -214,9 +204,9 @@ ul.nav{
 
 /*=========banner area===========*/
 .banner{
-	background: url(../img/metalworking-bg.jpg) no-repeat center/cover;
-	-webkit-box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
-	box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.8) inset;
+	background: url(../img/kyiv.jpg) no-repeat bottom/cover;
+	-webkit-box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.6) inset;
+	box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.6) inset;
 	min-height: 400px;
 	overflow: hidden;
 	padding-left: 15px;
@@ -233,7 +223,7 @@ ul.nav{
 .banner .yellow-line {
 	background: #FCFF00;
 	height: 1px;
-	width: 34%;
+	width: 32%;
 }
 .banner h1{
 	font-size: 34px;
@@ -243,79 +233,71 @@ ul.nav{
 	color: #FCFF00;
 }
 
-/*========= section metalworking ===========*/
-.metalworking {
+/*========= main-about ===========*/
+.main-contacts {
+	background-color: rgb(220, 220, 220);
 	padding: 40px 10px;
-	background-color: #efefef;
 }
-.grinding_work {
-	background-color: #fff;
-	max-width: 470px;
-	margin: 20px auto;
-	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.7);
-}
-.grinding_work img {
-	width: 100%;
-	border-bottom: 6px solid #E4E703;
-}
-.grinding_work h3 {
-	font-family: 'Oswald';
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 24px;
+.main-contacts h3 {
+	font-size: 26px;
+	line-height: 32px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #2C2C2C;
-	margin: 15px;
+	color: #000;
+	margin-top: 15px;
+	text-align: center;
 }
-.grinding-double-line{
+.contacts-double-line {
 	position: relative;
-	background: #2c2c2c;
+	background: #525252;
 	height: 1px;
 	width: 120px;
-	margin: 15px 15px 30px;
+	margin: 0 auto 28px;
 }
-.grinding-double-line::before{
+.contacts-double-line::before{
 	content: '';
 	width: 60px;
 	height: 1px;
-	background: #2c2c2c;
+	background: #525252;
 	position: absolute;
 	top: 9px;
+	left: 25%;
 }
-.grinding_work p{
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	color: #525252;
-	padding: 15px;
+.wrap-block {
+	text-align: center;
+	border: 1px solid rgb(202, 202, 202);
+	margin: 30px 15px;
 }
-.grinding_work span {
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 20px;
-	color: #2c2c2c;
-	padding: 15px;
-	display: block;
+.wrap-block:hover {
+	box-shadow: 0 0 6px rgb(179, 179, 179);
+	transition: all 0.2s;
 }
-.grinding_work ul {
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	color: #525252;
-	padding: 15px;
+.wrap-block img {
+	width: 80px;
+	margin: 15px;
 }
-.grinding_work .contact-info {
-	display: block;
-	font-size: 13px;
+.wrap-block h5 {
+	font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 15px;
 }
-.grinding_work .contact-info li {
-	font-family: 'Montserrat';
+.wrap-block p {
+	font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 15px;
 }
-.grinding_work .contact-info a {
-	color: #000;
-	font-family: 'Oswald';
+iframe {
+	margin: 0 auto;
+	width: 100%;
 }
+
+
 /*===========footer section============*/
 .footer{
 	background: rgb(37, 37, 37);
